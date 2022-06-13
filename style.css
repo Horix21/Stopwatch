@@ -50,7 +50,7 @@
 }
 
 .container .watch .time {
-  font-size: 500%;
+  font-size: 8vw;
   background-color: var(--watch);
 }
 
@@ -73,6 +73,7 @@
 }
 
 .container .buttons .button1 {
+  font-size: 1.5vw;
   border-width: 1px;
   border-radius: .3em;
   border-color: var(--border);
@@ -80,6 +81,7 @@
 }
 
 .container .buttons .button2 {
+  font-size: 1.5vw;
   border-width: 1px;
   border-radius: .3em;
   border-color: var(--border);
@@ -87,6 +89,7 @@
 }
 
 .container .buttons .button3 {
+  font-size: 1.5vw;
   border-width: 1px;
   border-radius: .3em;
   border-color: var(--border);
@@ -100,6 +103,6 @@
   background-color: var(--background);
   color: var(--tex);
   text-align: center;
-  font-size: 80%;
+  font-size: 1vw;
 }
 /*# sourceMappingURL=style.css.map */

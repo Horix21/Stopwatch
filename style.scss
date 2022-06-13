@@ -12,6 +12,7 @@
     font-family: "Courier New";
     background-color: var(--background);
     color: var(--text);
+    //text-size-adjust: 25%;
 }
 
 .topnav 
@@ -58,7 +59,7 @@
         background-color: var(--watch);
         .time 
         {
-            font-size: 500%;
+            font-size: 8vw;
             background-color: var(--watch);
         }
     }
@@ -77,22 +78,26 @@
         width: 100%;
         .button1 
         {
+            font-size: 1.5vw;
             border-width: 1px; border-radius: .3em; border-color: var(--border); 
             text-align:center;
         }
         .button2 
         {
+            font-size: 1.5vw;
             border-width: 1px; border-radius: .3em; border-color: var(--border);
             text-align: center;
         }
         .button3 
         {
+            font-size: 1.5vw;
             border-width: 1px; border-radius: .3em; border-color: var(--border);
             text-align: center;
         }
     }
 
 }
+
 
 .footer
 {
@@ -102,5 +107,5 @@
     background-color: var(--background);  
     color: var(--tex);  
     text-align: center;
-    font-size: 80%;
+    font-size: 1vw;
 }
