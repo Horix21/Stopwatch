@@ -1,7 +1,7 @@
 var stoptime = true;
 var sec = 0;
 var min = `00`;
-var time = 0;
+var time = -1;
 
 document.getElementById("start").addEventListener("click", () => {
     startTimer();
