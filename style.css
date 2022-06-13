@@ -27,7 +27,7 @@
 .topnav .name {
   background-color: var(--nav);
   margin-top: 10px;
-  font-size: 2em;
+  font-size: 200%;
 }
 
 .container {
@@ -50,7 +50,7 @@
 }
 
 .container .watch .time {
-  font-size: 5em;
+  font-size: 500%;
   background-color: var(--watch);
 }
 
@@ -100,6 +100,6 @@
   background-color: var(--background);
   color: var(--tex);
   text-align: center;
-  font-size: .8em;
+  font-size: 80%;
 }
 /*# sourceMappingURL=style.css.map */
