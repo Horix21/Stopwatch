@@ -12,6 +12,19 @@ document.getElementById("stop").addEventListener("click", () => {
 document.getElementById("restart").addEventListener("click", () => {
     restartTimer();
 })
+document.addEventListener('keyup', event => {
+    if (event.code === 'Space') 
+    {
+        if (stoptime == true)
+        {
+            startTimer()
+        }
+        else
+        {
+            stopTimer()
+        }
+    }
+});
 
 function startTimer() 
 {
