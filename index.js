@@ -5,12 +5,15 @@ var time = -1;
 
 document.getElementById("start").addEventListener("click", () => {
     startTimer();
+    getElementById("start").blur();
 });
 document.getElementById("stop").addEventListener("click", () => {
     stopTimer();
+    getElementById("stop").blur();
 });
 document.getElementById("restart").addEventListener("click", () => {
     restartTimer();
+    getElementById("restart").blur();
 })
 document.addEventListener('keyup', event => {
     if (event.code === 'Space') 
